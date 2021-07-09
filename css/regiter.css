@@ -1,0 +1,130 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    /* 这里的height改为84px会出现背景色无法贴边 */
+    height: 83px;
+    border-bottom: 2px solid #b1191a;
+}
+header div{
+    padding-top: 18px;
+}
+.registerarea{
+    height: 523px;
+    margin-top: 20px;
+    border: 1px solid #dfdfdf;
+}
+.register_hd{
+    height: 42px;
+    background-color:#ececec;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 42px;
+    padding: 0 10px;
+}
+.register_hd h3{
+    color:#333;
+    font-weight: 400;
+    font-size: 18px;
+}
+.denglu{
+    float:right;
+    font-size: 14px;
+}
+.denglu a{
+    color: red;
+}
+.register_bd{
+    width: 588px;
+    /* height: 393px; */
+    margin: 54px auto 0;
+    /* background-color:skyblue; */
+}
+.register_bd ul li{
+    margin-bottom: 20px;
+}
+.register_bd ul li label{
+    display:inline-block;
+    text-align: right;
+    width: 85px;
+    /* height: 37px; */
+}
+.register_bd .inp{
+    width: 240px;
+    height: 35px;
+    border:1px solid #999;
+}
+.error_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:-2px 3px 0;
+    background:url(../images/矩形8.png) no-repeat;
+    vertical-align: middle;
+}
+.safe em{
+    padding: 0 12px;
+    color:#fff;
+}
+.safe{
+    margin-left: 165px;
+    
+}
+.error{
+    color: red;
+}
+.agree{
+    margin: 35px 0 0 82px;
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qiang{
+    background-color: #f79100;
+}
+.btn{
+    vertical-align: middle;
+    margin: 0 3px;
+}
+.agree a{
+    color: #74bded;
+}
+.sub{
+    width: 200px;
+    height: 34px;
+    margin: 30px 0 0 95px;
+    color: #fff;
+    background-color: #c81623;
+}
+.mod_copyright{
+    margin-bottom: 20px;
+}
+.mod_copyright ul {
+    height: 45px;
+    padding-left: 115px;
+    /* margin: 0 auto; */
+}
+.mod_copyright ul li{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    /* ！！！！！这个属性在这里不起作用
+    text-align: center; */
+}
+.mod_copyright ul li:nth-child(2n){
+    height: 12px;
+    width: 1px;
+    margin: 17px 15px 0;
+    background-color: #999;
+}
+.mod_copyright ul li,
+.mod_copyright p{
+    font-size: 12px;
+    color:#666;
+    font-family: "宋体";
+    text-align: center;   
+}

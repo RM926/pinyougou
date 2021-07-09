@@ -1,0 +1,282 @@
+.main{
+    width: 981px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+}
+.focus {
+    height: 455px;
+    width: 722px;
+    background:url(../images/02.png) no-repeat;
+}
+.news{
+    width: 250px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+
+}
+.news_hd{
+    height: 33px;
+    padding: 0 22px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news_hd h5{
+    float: left;
+}
+.news_hd .more,
+.news_hd h5{
+    line-height: 33px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.more::after{
+    content: '\e901';
+    font-family: 'icomoon';
+    line-height: 35px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+.news_bd ul{
+    margin: 6px 3px 0 16px;
+}
+.news_bd li{
+    height: 24px;
+}
+.lifeservice{
+    overflow: hidden;
+    height: 210px;
+    width: 250px;
+    border-right: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+}
+.lifeservice ul{
+    float: left;
+    height: 210px;
+    width: 256px;
+}
+.lifeservice ul li{
+    position: relative;
+    float:left;
+    height: 70px;
+    width: 63px;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.lifeservice ul li a{
+    display: block;
+    text-align: center;
+    height: 25px;
+    width: 20px;
+    background: url(../images/untitled.png) no-repeat -18px -15px;
+    margin:12px auto 0;
+}
+.bargain{
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+    background: url(../images/01.png) no-repeat;
+}
+.recomment {
+    height: 165px;
+    margin-top: 13px;
+    background-color: #ebebeb;
+}
+.recomm_ph{
+    float: left;
+    height: 165px;
+    width: 201px;
+    padding-top: 30px;
+    text-align: center;
+    background-color:#5c5251;
+}
+.incomm_product{
+    background-color: #ebebeb;
+}
+.incomm_product ul li{
+    position: relative;
+    float: left;
+}
+.incomm_product ul li img{
+    width: 249px;
+    height: 165px;
+}
+.incomm_product ul li:nth-child(-n+3)::after{
+    content: '';
+    position: absolute;
+    top:10px;
+    right: 0px;
+    height: 145px;
+    width: 1px;
+    background-color:#ddd;
+}
+.like{
+    overflow:hidden;
+    margin-top: 31px;
+}
+.like_hd{
+    height: 29px;
+}
+.like h5{
+    float: left;
+    font-size: 18px;
+    color: #333;
+    font-weight:400;
+}
+.like span{
+    float: right;
+    font-family: "宋体";
+    font-size: 12px;
+}
+.like span::after{
+    float: right;
+    content:'\e902';
+    font-family: 'icomoon';
+    padding: 0 20px 0 8px;
+    vertical-align: middle;
+    
+}
+.like_bd{
+    height: 235px;
+    border: 1px solid  #e4e4e4
+}
+.like_bd ul{
+    width:1200px;
+}
+.like_bd ul li{
+    float: left;
+    position: relative;
+}
+.like_bd img{
+    width: 200px;
+    height: 235px;
+}
+.like_bd  ul li:nth-child(-n+5)::after{
+    content:'';
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+    width: 1px;
+    height: 53px;
+    background-color: #e4e4e4;
+}
+.jiadian{
+    margin-top: 25px;
+    height: 392px;
+}
+.jiadian_hd{
+    height: 32px;
+    border-bottom: 2px solid #c81623;
+}
+.jiadian .jdl{
+    float: left;
+    font-size: 18px;
+    color:#c81623;
+}
+.jiadian .jdr{
+    float: right;
+}
+.jiadian .jdr ul{
+    padding-top:7px;
+}
+.jiadian .jdr ul li{
+    float: left;
+}
+.jiadian .jdr ul li a{
+    padding: 0 18px;
+}
+.jiadian_bd{
+    height:360px;
+   
+}
+/* .jaidian>div{
+    float:left;
+} */
+.jd210{
+    float:left;
+    height: 360px;
+    width: 212px;
+    text-align: center;
+    background-color:#f9f9f9;
+}
+.jd210 ul{
+    float: left;
+    margin: 10px 15px 15px;
+}
+.jd210 ul li {
+    float: left;
+    display:block;
+    width: 85px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+/* .jd210 img{
+    margin-top: 15px;
+} */
+.jd210 ul li:nth-child(2n){
+    margin-left:10px;
+}
+.jd330{
+    position: relative;
+    float: left;
+    width: 330px;
+    height: 360px;
+    background-color: #aed6d8;
+    text-align: center;
+}
+.jd330 img{
+    margin-top: 35px;
+}
+.yuandian ul{
+    position: absolute;
+    left: 50%;
+    margin-left: -27px;
+    bottom: 15px;
+    width: 55px;
+    text-align: center;
+}
+.yuandian ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.jd219{
+    float: left;
+    height:360px;
+    width: 219px;   
+    /* line-height:360px;
+    text-align: center; */
+}
+.jd219 .jd180{
+    
+    
+}
+/* .juedui{
+    position: absolute;
+}
+.juedui img{
+    position: relative;
+    bottom: 0;
+    right: 0;
+} */
+.jd180{
+    /* float: left; */
+    height: 180px;
+    width: 219px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.jaidian_bd>div:nth-child(4){
+    border-right:1px solid #000;
+    border-bottom: 1px solid #000;
+}
